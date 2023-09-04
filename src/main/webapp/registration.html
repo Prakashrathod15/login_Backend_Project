@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  *{
+     margin: 0%;
+     padding: 0%;
+     
+    }
+    #container
+    {
+      height: 300px;
+      width:  400px;
+      margin: 200px;
+      padding: 200x;
+      
+    }
+    #user{
+      margin: 5px;
+      display: block;
+    }
+    #pass{
+      margin: 5px;
+      display: blcok;
+    }
+    #a{
+       display: block;
+    }
+
+</style>
+</head>
+<body>
+
+     <div>
+           <div id="container">
+                     <form action="newUserServlet" method="post">
+                            <h3> New registration </h3>
+                            <input id="user" type="text" name="userName" placeholder="userName" required>
+                            <input id="pass" type="text" name="passWord" placeholder="password" required>
+                            <input type="submit">
+                            <a id="a" href="login.html" target="_blank">Already user</a>
+                            
+                     
+                     
+                     </form>
+           
+           
+           </div>
+     
+     </div>
+
+</body>
+</html>

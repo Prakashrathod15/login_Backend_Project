@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login page</title>
+<style>
+  *{
+     margin: 0%;
+     padding: 0%;
+     
+    }
+    #container
+    {
+      height: 300px;
+      width:  400px;
+      margin: 200px;
+      padding: 200x;
+      
+    }
+    #userName{
+      margin: 5px;
+      display: block;
+    }
+    #passWord{
+      margin: 5px;
+      display: blcok;
+    }
+    #a{
+       display: block;
+    }
+
+</style>
+</head>
+<body>
+      <div>
+             <form id="container" action="loginServlet" method="post">
+                   <h3> Login </h3>
+                   <input id="userName" type="text" name="userName" placeholder="userName" >
+                   <input id="passWord" type="password" name="passWord" placeholder="passWord">
+                   <input id="sub" type="submit"> 
+                   <a id="a" href="registration.html" target="_blank">New User?</a>
+             
+             </form>
+      
+      
+      </div>
+
+</body>
+</html>
